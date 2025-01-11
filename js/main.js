@@ -1,0 +1,3 @@
+function changeText() {
+    alert("ку");
+}
