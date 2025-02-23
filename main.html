@@ -2,8 +2,10 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>goroskop</title>
+	<title>horoskope</title>
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </head>
 
 <body>
@@ -13,13 +15,13 @@
 	</header>
 	<div class="wall">
 		<div class="item">
-			<img src="img/Taurus.png">
+			<img src="img/Taurus.png" onclick="changeText(1)">
 			<div class="text">
 				<p style="color: white">Тельцам звезды подсказывают, что сегодня успех требует быстроты, легкости и ловкости. Может пригодиться общая мобильность, коммуникабельность, чувство юмора. Важно не зацикливаться на одной задаче и уметь переключать внимание, если этого требует момент. Ситуация может вновь предоставить отдельные альтернативные пути, не использованные в прошлом, и если они вызвали интерес, стоит их опробовать.</p>
 			</div>
 		</div>
 		<div class="item">
-			<img src="img/Leo.png">
+			<img src="img/Leo.png" onclick="changeText()">
 			<div class="text">
 				<p style="color: white">Сегодня Львы рискуют столкнуться с досадной помехой даже в изначально удачной для себя ситуации. Многим Львам придется отказаться от идеи быстрого продвижения на новом пути и отступить назад. Причиной могут оказаться неполадки со здоровьем, накопившиеся проблемы в семейных и жилищных делах, ошибки, совершенные на старте нового проекта, а также перегрузки и травмы (например, при тренировках).</p>
 			</div>
